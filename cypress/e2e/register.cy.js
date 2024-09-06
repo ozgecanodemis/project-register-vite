@@ -66,7 +66,7 @@ describe('Register Page', () => {
       cy.get('[data-cy="ad-input"]').type("emre");
       cy.get('[data-cy="soyad-input"]').type("Şahiner");
       cy.get('[data-cy="email-input"]').type("emre@wit.com.tr");
-      cy.get('[data-cy="password-input"]').type("1234**");
+      cy.get('[data-cy="password-input"]').type("1234Aa**");
 
       //assert
       cy.get('[data-cy="password-input"]').should("not.be.disabled");
