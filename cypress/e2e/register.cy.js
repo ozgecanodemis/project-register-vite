@@ -1,6 +1,10 @@
 import { errorMessages } from "../../src/components/Register";
 
 describe('Register Page', () => {
+  beforeEach(() => {
+    cy.visit('http://localhost:5174/')
+
+  })
   describe("Error Messages", () => {
 
 
